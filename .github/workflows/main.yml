@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: webitsbr/github-to-ftp@1.0.1
       with:
-        server: ${{ secrets.server }}
-        server-dir: ${{ secrets.dir }}
-        username: ${{ secrets.username }}
+        server: ftpupload.net
+        server-dir: htdocs
+        username: epiz_34008242
         password: ${{ secrets.password }}
